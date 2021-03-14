@@ -1,0 +1,62 @@
+h1{
+    color:#295aa3;
+    margin-left: 50px;
+    font-family: 'Brush Script MT';
+    font-weight:'bold';
+    font-size: 50px;
+}
+/**{
+    border:solid
+}*/
+.container{
+    background-image: linear-gradient(to bottom right, lightblue, rgb(67, 144, 196));
+}
+.header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, rgb(84, 235, 227), rgb(88, 216, 146));
+}
+.links {
+    margin: 20px;
+    padding: 10px;
+}
+.links a{
+    margin-right:10px;
+}
+
+.grid{
+    
+    color:rgb(127, 43, 206);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-image: linear-gradient(to bottom right, lightblue, lightpink);
+}
+.game{
+    position: relative;
+}
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+    font-size: 42;
+    font-weight: bold;
+    color:yellowgreen;
+}
+.game:hover p{
+    opacity:1
+}
+.game:hover img{
+    opacity:0.33;
+}
+.game img {
+    height: 300px;
+    width:300px;
+}
+.footer {
+display: flex;
+justify-content:flex-end;
+}
